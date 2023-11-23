@@ -5,11 +5,16 @@ export default class Admin extends User {
     super(nome, email, nascimento, role, ativo);
   }
   
+  // Polimorfismo
+  exibirInfos() {
+    return `${this.nome}, ${this.role}, ${this.ativo},`;
+  }
+
   criarCurso(nomeDoCurso, vagas) {
     return `Curso de ${nomeDoCurso} criado com ${vagas} vagas`;
   }
 }
 
-const novoAdmin = new Admin("Rodrigo", "r@r.com", "2021/01/01");
-console.log(novoAdmin.criarCurso("JS", 20));
+// const novoAdmin = new Admin("Rodrigo", "r@r.com", "2021/01/01");
+// console.log(novoAdmin.criarCurso("JS", 20));
 // console.log(novoAdmin.exibirInfos());

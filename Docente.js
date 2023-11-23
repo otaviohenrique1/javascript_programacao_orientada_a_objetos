@@ -5,12 +5,17 @@ export default class Docente extends User {
     super(nome, email, nascimento, role, ativo);
   }
   
+  // Polimorfismo
+  exibirInfos() {
+    return `${this.nome}, ${this.role}, ${this.ativo},`;
+  }
+
   aprovaEstudante(estudante, curso) {
     return `estudante ${estudante} passou no curso ${curso}.`;
   }
 }
 
-const novoDocente = new Docente("Mariana", "m@m.com", "2021/01/01");
-console.log(novoDocente);
-console.log(novoDocente.aprovaEstudante("Juliana", "JS"));
+// const novoDocente = new Docente("Mariana", "m@m.com", "2021/01/01");
+// console.log(novoDocente);
+// console.log(novoDocente.aprovaEstudante("Juliana", "JS"));
 // console.log(novoAdmin.exibirInfos());
