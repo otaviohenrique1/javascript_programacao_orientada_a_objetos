@@ -1,8 +1,8 @@
-# js_na_web_crud_com_javascript_assincrono
+# javascript_programacao_orientada_a_objetos
 
 ## Descrição
 
-Projeto feito no curso de 'JS na web: CRUD com JavaScript assíncrono' da Alura.
+Projeto feito no curso de 'JavaScript: programação orientada a objetos' da Alura.
 
 ## Instruções
 
