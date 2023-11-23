@@ -10,7 +10,7 @@ export default class Docente extends User {
   }
 }
 
-const novoDocente = new Admin("Mariana", "m@m.com", "2021/01/01");
+const novoDocente = new Docente("Mariana", "m@m.com", "2021/01/01");
 console.log(novoDocente);
 console.log(novoDocente.aprovaEstudante("Juliana", "JS"));
 // console.log(novoAdmin.exibirInfos());

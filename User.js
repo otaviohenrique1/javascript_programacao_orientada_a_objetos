@@ -12,7 +12,7 @@ export default class User {
   }
 }
 
-const novoUser = new User("Juliana", "j@j.com", "2021/01/01");
-console.log(novoUser);
-console.log(novoUser.exibirInfos());
-console.log(User.prototype.isPrototypeOf(novoUser));
+// const novoUser = new User("Juliana", "j@j.com", "2021/01/01");
+// console.log(novoUser);
+// console.log(novoUser.exibirInfos());
+// console.log(User.prototype.isPrototypeOf(novoUser));
